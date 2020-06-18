@@ -1,0 +1,40 @@
+Hello world
+
+git init
+Initialized empty Git repository in /Users/valentina/Desktop/Repository/.git/
+
+(base) MacBook-Pro-de-Valentina:Repository valentina$ git add helloworld.txt
+
+(base) MacBook-Pro-de-Valentina:Repository valentina$ git commit -m "first commit! added hello world"
+[master (root-commit) 1ba82e5] first commit! added hello world
+ Committer: Valentina Zavala Cordero <valentina@MacBook-Pro-de-Valentina.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 helloworld.txt
+
+
+
+(base) MacBook-Pro-de-Valentina:Repository valentina$ git push -u origin master
+Username for 'https://github.com': valentina.zc@gmail.com
+Password for 'https://valentina.zc@gmail.com@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 262 bytes | 43.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ValentinaZavala/ValentinasFirstRepo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
+
+
